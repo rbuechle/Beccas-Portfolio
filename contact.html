@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400;500&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">    
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--script for collapsable menu-->
+        <script src="script.js" defer></script>
+        <title>Contact - Becca Buechle</title>
+    </head>
+<body>
+    <nav>
+      <img src="images/logo.png" alt="B logo" class="logo">
+      <a href="index.html">home</a>
+      <a href="about.html">about</a>
+      <a href="resume.html">resume</a>
+      <a href="portfolio.html">portfolio</a>
+      <a href="blog.html">blog</a>
+      <a href="contact.html">contact</a>
+        <!--This is code for the collapse menu-->
+      <div class="hamburger">
+          <img alt="hamburger" id="hamburger" src="images/menu.png">
+          <div class="menu hidden">
+              <a href="index.html">home</a>
+              <a href="about.html">about</a>
+              <a href="resume.html">resume</a>
+              <a href="portfolio.html">portfolio</a>
+              <a href="blog.html">blog</a>
+              <a href="contact.html">contact</a>
+          </div>
+      </div>
+  </nav>
+  <header>
+      <div class="abouttxt">
+          <h1 class="aboutheader">contact.</h1>
+          <h2 class="abouth2">Get in touch with me via social media or email.</h2>
+          <div class="contactsocials">
+              <a href="https://www.linkedin.com/in/rebecca-buechle-033b74206/" target="_blank"><img src="images/linkedin.png" alt="linkedin logo"></a>  
+              <a href="mailto:rbuechle@live.com" target="_blank"><img src="images/email.png" alt="Email logo"></a>    
+          </div>
+      </div>
+      <img src="images/me.jpg" alt="photo of me" class="me">
+  </header>
+  <main>
+      <form action="mailto:rbuechle@live.com" method="post">
+          <h2 class="abouth2">Send me an email</h2>
+            <table>
+              <tr>
+                <td>
+                  <label for="name">Name:</label>
+                </td>
+                <td>
+                  <input type="text" id="name" name="name" size="37">
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="email">Email:</label>
+                </td>
+                <td>
+                  <input type="email" id="email" name="email" size="37">
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="msg">Message:</label>
+                </td>
+                <td>
+                  <textarea rows="8" cols="40" name="msg" id="msg"></textarea>
+                </td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>
+                  <button type="submit">Send Message</button>
+                </td>
+              </tr>
+            </table>
+
+        </form>
+  </main>
+  <footer>
+    <div>
+        <p class="footertxt">
+        123 Pine Street
+        <br />Seattle, Washington 98310
+        <br />
+        <br />&copy;2023 Becca Buechle
+        </p>
+    </div>
+    <div class="socials">
+        <a href="https://github.com/rbuechle" target="_blank"><img class="social" src="images/git.png" alt="Github"></a>
+        <a href="https://www.facebook.com/" target="_blank"><img class="social" src="images/fb.png" alt="Facebook"></a>
+    </div>
+</footer>
+</body>
+</html>

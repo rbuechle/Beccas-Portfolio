@@ -1,0 +1,438 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+a:hover{
+    color: #7c6cdc;
+}
+
+.aboutheader {
+    color: rgb(25, 68, 122);
+    font-family: 'Edu TAS Beginner', cursive;
+    font-size: 4em;
+    margin: 20px;
+}
+
+.abouth2 {
+    color: rgb(25, 68, 122);
+    font-family: 'Edu TAS Beginner', cursive;
+    font-size: 1.5em;
+    margin: 20px;
+}
+
+.abouth3 {
+    position: relative;
+    bottom: 45px;
+    background-color: rgb(230, 245, 255);
+    display: inline;
+    font-family: 'Parisienne', cursive;
+    font-size: 2em;
+}
+
+.aboutpics {
+    display: flex;
+    padding: 20px;
+    padding-bottom: 80px;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    border-bottom: 2px solid  rgb(25, 68, 122) ;
+}
+
+.aboutdiv {
+    max-width: 250px;
+}
+
+.about {
+    flex-basis: 50px;
+    flex: 1;
+    max-width: 200px;
+}
+
+.aboutpieleft {
+    color: rgb(25, 68, 122);
+    font-family: 'Edu TAS Beginner', cursive;
+    text-align: right;
+}
+
+.aboutpieright {
+    color: rgb(25, 68, 122);
+    font-family: 'Edu TAS Beginner', cursive;
+    margin-left: 40px;
+}
+
+
+body {
+    background-color: rgb(230, 245, 255);
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.b {
+    font-weight: bold;
+}
+
+.blogp {
+    padding-left: 50px;
+    padding-right: 50px;
+    }
+
+.contactsocials {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.card {
+    background-color: rgb(230, 245, 255);
+    padding: 20px;
+    margin-top: 20px;
+    flex: 1;
+    max-width: 50%;
+}
+
+.card img {
+    height: 400px;
+}
+
+div.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.card h2,
+div.card h5 {
+    margin: 10px;
+}
+
+div.resume {
+    display: flex;
+    align-items: center;
+}
+
+div.resume > p:last-child {
+    margin-left: auto;
+    align-self: end;
+}
+
+footer {
+    background-color: rgb(25, 68, 122);
+    margin: 0px;
+    width: 100%;
+    flex: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.footertxt {
+    color: white;
+}
+
+form {
+    display: inline-block;
+}
+  
+form label {
+    font-family: 'Edu TAS Beginner', cursive;
+    color: rgb(25, 68, 122);
+    font-size: 1.2em;
+}
+
+form button {
+    padding: 5px 15px;
+    background-color: rgb(25, 68, 122);
+    border: none;
+    color: rgb(230, 245, 255);
+    font-weight: bold;
+}
+
+form button:hover {
+    background-color:  #717b5e;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    gap: 50px;
+}
+
+header.resume p {
+    padding: 0px;
+}
+
+header.resume h3 {
+    margin-top: 25px;
+} 
+header.resume h4 {
+    margin-top: 10px;
+}
+
+header.resume li {
+    max-width: 60%;
+    margin-left: 25px;
+}
+
+header.resume ul {
+    padding-bottom: 15px;
+}
+
+header.resume hr {
+    margin-bottom: 10px;
+}
+
+.hero p,
+.hero h1  {
+    margin: 5px;
+    text-align: center;
+    padding: 0;
+    color: rgb(25, 68, 122);
+}
+
+.hero {
+    flex-basis: 50px;
+    flex: 1;
+    max-width: 200px;
+}
+
+.heroheader {
+    color: rgb(25, 68, 122);
+    font-family: 'Edu TAS Beginner', cursive;
+}
+
+h3 {
+    color: rgb(25, 68, 122);
+}
+
+h5 {
+    font-family: 'Edu TAS Beginner', cursive;
+    color: rgb(25, 68, 122);
+    color: rgb(25, 68, 122);
+    font-size: 1.2em;
+}
+
+.h3work {
+    position: relative;
+    bottom: 45px;
+    background-color: rgb(230, 245, 255);
+    display: inline;
+    font-family: 'Parisienne', cursive;
+    font-size: 2em;
+}
+
+.hamburger {
+    display: none;
+    position: relative;
+}
+
+#hamburger{
+    height: 40px;
+    width: auto;
+    fill: white;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: absolute;
+    top: 10px;
+    left: -65px;
+    width: 100px;
+    padding: 10px;
+    gap: 3px;
+    background-color:rgb(25, 68, 122);
+    border: 1px solid white;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.mystoryimg{
+    height: 400px;
+    padding-top: 20px;
+}
+
+.i {
+    font-style: italic;
+    margin-left: 5px;
+    color: #717b5e;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 300px;
+    padding: 8px;
+    border: 1px solid rgb(25, 68, 122);
+}
+
+.logo {
+    padding: 0;
+     height: 100px;
+     width: 100px;
+     margin-right: auto;
+}
+
+.listleft {
+    list-style: none;
+    color: rgb(25, 68, 122);
+    float: right;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+.listright {
+    list-style: none;
+    color: rgb(25, 68, 122);
+    float: right;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+.me {
+    width: 200px;
+    height: auto;
+    margin: 20px;
+    border: 2px solid rgb(25, 68, 122);
+    border-radius: 50%;
+}
+
+main {
+    text-align: center;
+    padding: 20px 0px;
+    border-top: 2px solid  rgb(25, 68, 122) ;
+}
+
+.mystory {
+    width: 300px;
+    height: auto;
+    margin: 20px;
+}
+
+nav {
+    background-color: rgb(25, 68, 122);
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 50px;
+    min-height: 100px;
+    flex: none;
+}
+
+p {
+    color: rgb(25, 68, 122);
+    text-align: left;
+    padding: 20px;
+}
+
+.previous {
+    width: 100%;
+    height: auto;
+}
+
+.previouswork {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.previousdiv {
+    max-width: 250px;
+}
+
+.readmystory {
+    color: #717b5e;
+    text-decoration: underline;
+}
+
+.readmystory:hover{
+    color: #7c6cdc;
+}
+
+.removeborder {
+    border-bottom: none;
+}
+
+.social {
+    display: inline;
+    width: 48px;
+}
+  
+.socials {
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    gap: 50px;
+    border-bottom: 2px solid  rgb(25, 68, 122) ;
+}
+
+section:last-child {
+    border-bottom: none;
+    padding-top: 20px;
+}
+
+section:last-child h2 {
+    font-family: 'Edu TAS Beginner', cursive;
+    color: rgb(25, 68, 122);
+    font-size: 2em;
+    margin: 0px;
+}
+
+td {
+    padding: 5px;
+    vertical-align: top;
+}
+
+textarea {
+    width: 300px;
+    border: 1px solid rgb(25, 68, 122);
+}
+
+.hidden {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    nav {
+        gap: 10px;
+    }
+    header {
+        gap: 0px;
+    }
+}
+
+@media (max-width: 480px) {
+    nav > a {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+}
